@@ -1,0 +1,141 @@
+@charset "utf-8";
+
+*
+{
+    box-sizing: border-box;
+}
+
+.form-items > div.buttons
+{
+    background-color: #FFF;
+    padding: 5px;
+}
+
+.form-items > div.buttons > button
+{
+    margin: 2px;
+}
+
+.wp-core-ui input.button-primary
+{
+    margin-top: 5px;
+}
+
+/* 2サイド */
+div.two-side
+{
+    width: 100%;
+    margin: 10px 0 0 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+div.two-side > *
+{
+    width: 49%;
+}
+
+div.two-side > *:nth-child(2n+1)
+{
+    margin-right: 2%!important;
+}
+
+/* タイトル */
+div.two-side > div.title
+{
+    text-align: center;
+    padding: 5px 0;
+    background-color: #000;
+    color: #ffffff;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+
+/* 配置変更 */
+div.two-side > ul.change-p
+{
+    min-height: 20px;
+    margin: 0;
+    padding: 0 10px;
+    background-color: #CCC;
+}
+
+div.two-side > ul.change-p > li
+{
+    margin: 10px 0;
+    padding: 0 0 0 15px;
+    background-color: #f6f6f6;
+    cursor: move;
+}
+
+div.two-side > ul.change-p > li > div
+{
+    padding: 10px;
+    background-color: #FFF;
+    cursor: auto;
+}
+
+div.two-side > ul.change-p > li > div > div.float
+{
+    width: 100%;
+    margin: 5px 0 0 0;
+    padding: 3px;
+    background-color: #636363;
+    color: #FFF;
+}
+
+div.two-side > ul.change-p > li > div > input,
+div.two-side > ul.change-p > li > div > textarea
+{
+    width: 100%;
+    margin: 5px 0 0 0;
+    display: block;
+}
+
+div.two-side > ul.change-p > li > div > button
+{
+    display: block;
+    width: 150px;
+    margin: 3px 0 0 auto;
+    padding: 8px 0;
+    text-align: right;
+    background-color: #ffc0cb;
+    text-align: center;
+    color: #FFF;
+    border-radius: 3px;
+    border: 0;
+    line-height: 1;
+}
+
+div.two-side > ul.change-p > li > div > button:nth-child(1)
+{
+    margin: 0 0 0 auto;
+}
+
+/* プレビュー */
+div.two-side > div.preview
+{
+    background-color: #FFF;
+}
+
+div.two-side > div.preview > table
+{
+    width: 100%;
+    border-spacing: 0;
+}
+
+div.two-side > div.preview > table td
+{
+    padding: 5px 10px;
+    border-top: 1px solid #CCC;
+}
+
+div.two-side > div.preview input:not([type="radio"]):not([type="checkbox"]),
+div.two-side > div.preview textarea,
+div.two-side > div.preview label
+{
+    display: block;
+    width: 100%;
+    margin: 3px 0;
+}

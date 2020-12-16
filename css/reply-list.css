@@ -1,0 +1,34 @@
+@charset "utf-8";
+
+/* ステータス */
+table.wp-list-table td.status button
+{
+    margin: 0 3px 0 0;
+    background-color: #BBB;
+    border: 0;
+    color: #FFF;
+}
+
+table.wp-list-table td.status button.red
+{
+    background-color: #ff0000;
+}
+
+
+/* 問い合わせ内容 */
+table.cfbf-wrapper, table.cfbf-wrapper *
+{
+    display: block;
+    margin: 0;
+    padding: 0;
+}
+
+table.cfbf-wrapper .cfbf-title:before
+{
+    content: "【";
+}
+
+table.cfbf-wrapper .cfbf-title:after
+{
+    content: "】";
+}

@@ -1,0 +1,70 @@
+@charset "utf-8";
+
+div.wrap *
+{
+    box-sizing: border-box;
+}
+
+div.wrap div.left
+{
+    width: 70%;
+    background: #fff;
+    border: 1px solid #ccd0d4;
+    border-left: 4px solid #46b450;
+    box-shadow: 0 1px 1px rgba(0,0,0,.04);
+    margin: 10px 0;
+    padding: 10px;
+}
+
+div.wrap div.left .title
+{
+    margin: 0 0 5px 0;
+    font-weight: bold;
+    padding: 5px;
+}
+
+div.wrap div.right
+{
+    width: 70%;
+    background: #fff;
+    border: 1px solid #ccd0d4;
+    border-right: 4px solid #46b450;
+    box-shadow: 0 1px 1px rgba(0,0,0,.04);
+    margin: 10px 0 10px 30%;
+    padding: 10px;
+}
+
+div.wrap div.right .title
+{
+    margin: 0 0 5px 0;
+    font-weight: bold;
+    padding: 5px;
+}
+
+div.wrap input[type="text"]
+{
+    width: 100%;
+    margin: 0 0 3px 0;
+}
+
+div.wrap textarea
+{
+    width: 100%;
+    min-height: 200px;
+    font-size: inherit;
+}
+
+div.wrap table, div.wrap table *
+{
+    display: block;
+}
+
+div.wrap .cfbf-title:before
+{
+    content: "【";
+}
+
+div.wrap .cfbf-title:after
+{
+    content: "】";
+}

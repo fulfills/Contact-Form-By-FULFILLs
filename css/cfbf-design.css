@@ -1,0 +1,133 @@
+@charset "utf-8";
+
+div#cfbf
+{
+    width: 100%;
+    margin: 16px auto;
+    font-size: 15px;
+}
+
+div#cfbf *,
+div#cfbf *:before
+{
+    max-width: 100%;
+    box-sizing: border-box;
+    font-size: 15px;
+}
+
+div#cfbf table
+{
+    max-width: 100%;
+    margin: 0 auto;
+    border-spacing: 0;
+    border-collapse: collapse;
+    background-color: #FFF;
+}
+
+div#cfbf td
+{
+    padding: 10px;
+    border-style: solid;
+    border-width: 1px 0;
+    border-color: #CCC;
+}
+
+div#cfbf td.cfbf-title
+{
+    padding-right: 20px;
+}
+
+div#cfbf td.cfbf-title span.req
+{
+    margin: 0 5px;
+    padding: 5px;
+    border-radius: 3px;
+    display: inline-block;
+    vertical-align: middle;
+    background-color: #ff0000;
+    color: #FFF;
+    font-size: 12px;
+    font-weight: bold;
+    line-height: 1;
+}
+
+div#cfbf td.cfbf-inputs
+{
+    
+}
+
+div#cfbf td.cfbf-inputs > label
+{
+    display: block;
+    margin: 3px 0;
+    border-style: none;
+}
+
+/* 入力エリア */
+div#cfbf input[type="text"],
+div#cfbf input[type="email"],
+div#cfbf input[type="tel"]
+{
+    display: block;
+    margin: 5px 0;
+    padding: 5px;
+    border: 1px solid #CCC;
+    font-size: 15px;
+    line-height: 1;
+    border-radius: 0;
+}
+
+div#cfbf textarea
+{
+    display: block;
+    border: 1px solid #CCC;
+    margin: 5px 0;
+    padding: 5px;
+    font-size: 15px;
+    border-radius: 0;
+}
+
+div#cfbf input[type="radio"]
+{
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    margin: 0 5px 0 0;
+    border: 1px solid #000;
+    border-radius: 50%;
+    background-color: #FFF;
+    vertical-align: middle;
+    -webkit-appearance: none;
+    appearance: none;
+    outline:0;
+    box-shadow: unset;
+}
+
+div#cfbf input[type="radio"]:checked
+{
+    background-color: #000;
+}
+
+div#cfbf input[type="radio"]:before
+{
+    display: none;
+}
+
+div#cfbf input[type="checkbox"]
+{
+    margin: 0 5px 0 0;
+    outline: 0;
+}
+
+div#cfbf input[type="submit"]
+{
+    display: block;
+    width: 200px;
+    margin: 20px auto 0 auto;
+    padding: 10px 0;
+    background-color: #cd2653;
+    border: 0;
+    color: #FFF;
+    font-size: 16px;
+    font-weight: bold;
+}
